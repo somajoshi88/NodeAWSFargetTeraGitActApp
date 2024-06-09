@@ -1,0 +1,48 @@
+# Node.js related files and directories
+/app/node_modules/
+/app/.npm/
+/app/build/
+/app/dist/
+/app/.env
+/app/logs/
+/app/*.log
+/app/npm-debug.log*
+/app/yarn-debug.log*
+/app/yarn-error.log*
+/app/pnpm-lock.yaml
+/app/yarn.lock
+/app/coverage/
+/app/.idea/
+/app/.vscode/
+/app/.vscode-test/
+/app/.DS_Store
+/app/.dockerignore
+
+# Git specific files (usually not needed as .git is a directory)
+/app/.git
+/app/.gitignore
+
+# Terraform related files and directories
+/terraform/.terraform/
+/terraform/.terraform.lock.hcl
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
+/terraform/crash.log
+/terraform/.terraform.d/
+/terraform/override.tf
+/terraform/override.tf.json
+/terraform/*_override.tf
+/terraform/*_override.tf.json
+/terraform/terraform.rc
+/terraform/terraform.rc.json
+/terraform/*.tfplan
+
+# Common temporary files
+*.tmp
+*.temp
+
+# Ensure any .env files in the root directory (if applicable) are ignored
+.env
+
+# Exclude .gitattributes to avoid being ignored
+!.gitattributes
