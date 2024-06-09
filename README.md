@@ -98,5 +98,11 @@ Consider implementing the following enhancements to further improve your deploym
 
     Regularly review and optimize AWS resources to minimize costs while maintaining performance and availability.
 # Screenshot
- the screencast demonstrates the deployment process.
-    
+  AWS configuration screenshots available in "screenshots" folder to demonstrates the deployment process.
+  
+  ![AWS ECS Cluster APP Service Task and Container](screenshots/AWSAppServiceTaskContainer.png)
+   
+  ![Node JS App access](screenshots/NodeJSAppScreenShot.png)
+  
+  
+     
