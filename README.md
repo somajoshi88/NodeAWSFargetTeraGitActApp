@@ -1,4 +1,4 @@
-# NodeTeraGitActApp
+# NodeAWSFargetTeraGitActApp
 # AWS ECS Deployment with GitHub Actions and Terraform  </p>
 This repository provides a streamlined process to deploy a simple app to AWS ECS using GitHub Actions and Terraform.
 
