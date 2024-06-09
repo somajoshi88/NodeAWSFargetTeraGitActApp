@@ -54,14 +54,14 @@ Before getting started, ensure you have the following prerequisites:
              - Utilizes appropriate network settings and roles for permissions.      
 
  4. **Github action workflow**:
-    * **AWS.yml** : File has following AWS sepcific configuration
-          * GitHub Action for deploying to Amazon ECS
-          * Triggered on push to main branch
-          * Sets up AWS credentials and logs in to Amazon ECR
-          * Builds and pushes Docker image
-          * Updates ECS task definition
-          * Deploys new task definition to specified ECS service in specified cluster
-    * **TD.json** : Copy the content from "Amazon Elastic Container Service > Task definitions > app > JSON" for the latest app revision. Remove "revision: 6" and the "6" from "app:6".
+    * **AWS.yml** : Configuration file for AWS sepcific task:
+      * GitHub Action for deploying to Amazon ECS
+      * Triggered on push to main branch.
+      * Sets up AWS credentials and logs in to Amazon ECR.
+      * Builds and pushes Docker image.
+      * Updates ECS task definition.
+      * Deploys new task definition to specified ECS service in specified cluster.
+    * **TD.json** : Copy task defination from "Amazon Elastic Container Service > Task definitions > app > JSON" for the latest app revision. Remove "revision: 6" and the "6" from "app:6".
     * **Trigger**: The workflow runs on pushes to the main branch.
     * **Build and Deploy**:
         - **Build and Push Docker Image**: Builds the application Docker image and pushes it to Amazon ECR.
